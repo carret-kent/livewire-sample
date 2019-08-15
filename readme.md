@@ -28,8 +28,10 @@
  ```
  cd project/laradoc
  docker-compose up -d nginx
- 
  docker-compose exec workspace bash  #into workspace
+  
+ cd livewire-sample
+ composer install
  cp .env.example .env
  php artisan key:generate
  php artisan migrate --seed
