@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/livewire', 'LivewireController@index')->name('livewire.index');
