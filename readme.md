@@ -27,7 +27,7 @@
 ### docker start
  ```
  cd project/laradoc
- docker-compose up -d nginx
+ docker-compose up -d nginx mysql
  docker-compose exec workspace bash  #into workspace
   
  cd livewire-sample
