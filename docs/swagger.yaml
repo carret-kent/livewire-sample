@@ -3,7 +3,7 @@ info:
   version: 1.0.0
   title: タイトル
 paths:
-  '/user/{id}':
+  '/users/{id}':
     get:
       description: ユーザー情報取得
       parameters:
